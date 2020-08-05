@@ -3,20 +3,16 @@ package _99_extra;
 
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.io.File;
-import java.net.MalformedURLException;
-import java.net.URL;
-
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
 public class ThatWasEasy extends MouseAdapter {
-
+speak("hello");
 	public void mouseClicked(MouseEvent arg0) {
 		/* Use the speak method to make the button work. */
-		speak("hello");
+		
 	}
 
 	private void speak(String words) {
